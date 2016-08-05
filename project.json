@@ -1,0 +1,25 @@
+{
+  "name":"why-bank",
+  "author": {
+    "name": "why",
+    "email": "649536524@qq.com"
+  },
+  "jurisdiction":"0777",
+  "root":{
+    "path":"./webApp",
+    "level":"0",
+    "children":[
+      {"path":"src","level":"1",
+        "children":[
+          {"path":"pages","level":"2"},
+          {"path":"script","level":"2"},
+          {"path":"css","level":"2"},
+          {"path":"images","level":"2","children":[{"path":"banner","level":"3"}]}
+        ]
+      },
+      {"path":"api", "level":"1"},
+      {"path":"json", "level":"1"},
+      {"path":"less", "level":"1"}
+    ]
+  }
+}

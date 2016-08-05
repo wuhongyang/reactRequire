@@ -1,0 +1,21 @@
+{
+  "name": "iassWebApp",
+  "version": "0.0.0",
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "es5-shim": "~3.1.0",
+    "bootstrap": "~3.2.0",
+    "jquery.scrollTo": "~1.4.13",
+    "requirejs": "~2.1.15",
+    "echarts": "~2.0.4",
+    "mustache": "~0.8.2",
+    "messenger": "~1.4.1",
+    "DataTables": "~1.10.4",
+    "bootstrapValidator": "~0.5.3"
+  },
+  "appPath": "webApp",
+  "devDependencies": {
+    "unslider": "~1.0.0",
+    "jsx-requirejs-plugin": "^0.6.2"
+  }
+}

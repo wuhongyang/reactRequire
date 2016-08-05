@@ -1,0 +1,37 @@
+@headerHeight:36px;
+#main{
+	header{
+		font-size:1.5em;
+		font-weight:bold;
+		color:#201f1f;
+		text-align:center;
+		height:@headerHeight;
+		line-height:@headerHeight;
+		background:#fff;
+	}
+	.luweitown_page{
+		background:url(../images/bg.png) no-repeat top left;
+	    background-size:100% auto;
+		position:relative;
+		height: 100%;//calc(~"100% - 36px");
+		overflow-x:hidden;
+	}
+}
+.attendBtn{
+	display:block;
+	margin: 0 auto;
+	width:55%;
+	padding:3% 0;
+	text-align: center;
+	font-size:1.4em;
+	color:#fff;
+	text-decoration: none;
+	background: #fb5319;
+	border-radius:10px;
+	box-shadow: 2px 2px 2px #585657;
+}
+.attendBtnHide{
+	display:none;
+}
+.clearfix:after {content: "\0020"; display: block; height: 0;clear: both; visibility: hidden; }
+.clearfix {zoom: 1;}
